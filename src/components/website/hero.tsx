@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
           <div className="flex gap-2.5">
             <ButtonIcon text={"Donasi Sekarang"} icon={WalletIcon} />
-            <button className="bg-white bodysmall text-emerald-700 p-4 rounded-xl">
+            <button className="bg-white labelsmall lg:bodysmall text-emerald-700 p-2 lg:p-4 rounded-sm lg:rounded-xl">
               Jadwal Sholat
             </button>
           </div>
