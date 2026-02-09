@@ -1,0 +1,125 @@
+#WEBSITE
+
+Beranda
+│
+├── Profil Masjid
+│   ├── Sejarah Masjid
+│   ├── Visi & Misi
+│   ├── Struktur Pengurus
+│   └── Lokasi & Denah
+│
+├── Jadwal
+│   ├── Jadwal Sholat
+│   ├── Jadwal Jum'at
+│   │   ├── Imam
+│   │   └── Khatib
+│   ├── Jadwal Kajian
+│   └── Jadwal Kegiatan Khusus
+│
+├── Kegiatan
+│   ├── Kegiatan Rutin
+│   ├── Kegiatan Khusus
+│   └── Dokumentasi
+│       ├── Foto
+│       └── Video
+│
+├── Pengumuman
+│   ├── Pengumuman Umum
+│   ├── Informasi Darurat
+│   └── Hasil Rapat DKM
+│
+├── Donasi & Infak
+│   ├── Donasi Online
+│   │   ├── QRIS
+│   │   └── Transfer Bank
+│   ├── Program Donasi
+│   ├── Konfirmasi Donasi
+│   └── Riwayat Donasi
+│
+├── ZIS (Zakat, Infak, Sedekah)
+│   ├── Informasi Zakat
+│   ├── Hitung Zakat
+│   ├── Penerimaan Zakat
+│   └── Penyaluran Zakat
+│
+├── Keuangan
+│   ├── Laporan Pemasukan
+│   ├── Laporan Pengeluaran
+│   ├── Rekap Bulanan
+│   ├── Rekap Tahunan
+│   └── Grafik Keuangan
+│
+├── Artikel & Kajian
+│   ├── Artikel Islami
+│   ├── Materi Kajian
+│   └── Download
+│       ├── PDF
+│       └── Audio
+│
+├── Layanan Jamaah
+│   ├── Pendaftaran Nikah
+│   ├── Peminjaman Aula
+│   ├── Layanan Ambulans
+│   └── Jadwal Imam & Muadzin
+│
+├── Multimedia
+│   ├── Live Streaming
+│   ├── Rekaman Khutbah
+│   └── Podcast
+│
+└── Kontak
+    ├── Kontak Pengurus
+    ├── Kritik & Saran
+    └── Media Sosial
+
+#ADMIN
+
+Admin Dashboard
+│
+├── Dashboard
+│   ├── Statistik Pengunjung
+│   ├── Ringkasan Keuangan
+│   └── Notifikasi
+│
+├── Manajemen Konten
+│   ├── Beranda
+│   ├── Profil Masjid
+│   ├── Artikel
+│   ├── Pengumuman
+│   └── Galeri
+│
+├── Manajemen Jadwal
+│   ├── Jadwal Sholat
+│   ├── Jadwal Kajian
+│   └── Jadwal Imam & Khatib
+│
+├── Manajemen Kegiatan
+│   ├── Data Kegiatan
+│   └── Dokumentasi
+│
+├── Manajemen Donasi & ZIS
+│   ├── Donasi Online
+│   ├── Validasi Donasi
+│   ├── Data Donatur
+│   └── Laporan Zakat
+│
+├── Manajemen Keuangan
+│   ├── Pemasukan
+│   ├── Pengeluaran
+│   ├── Laporan
+│   └── Export (PDF / Excel)
+│
+├── Manajemen Jamaah
+│   ├── Data Jamaah
+│   └── Pendaftaran Online
+│
+├── Manajemen Pengurus
+│   ├── Data DKM
+│   └── Hak Akses (Role)
+│
+└── Pengaturan
+    ├── Profil Masjid
+    ├── Tema & Tampilan
+    ├── Backup & Restore
+    └── Notifikasi Sistem
+
