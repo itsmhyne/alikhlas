@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Poppins } from "next/font/google";
+import { Amiri, Geist, Geist_Mono, Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/website/navbar";
 import Footer from "@/components/website/footer";
@@ -14,6 +14,11 @@ const poppinsSans = Poppins({
 const InterMono = Inter({
   variable: "--font-inter-mono",
   subsets: ["latin"],
+});
+
+export const amiri = Amiri({
+  subsets: ["arabic"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {

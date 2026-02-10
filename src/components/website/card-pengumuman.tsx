@@ -10,8 +10,8 @@ export default function CardPengumuman() {
       <p className="bodysmall">
         Pembangunan gapuran depan masjid dan perbaikan akses jalan ke masjid
         agar lebih baik. Penambahan kran air didepan masjid, yang akan dilakukan
-        pada tanggal 1 Januari 2026 sampai 20 Januari 2026. Dimulai pukul 7
-        pagi, sampai waktu sebelum dhuhur.
+        pada tanggal 1 Januari 2026 - 20 Januari 2026. Dimulai pukul 7 pagi,
+        sampai waktu sebelum dhuhur.
       </p>
       <div className="flex items-center gap-1 labelsmall font-bold text-emerald-700 mt-2.5">
         <h6>Lihat Selengkapnya</h6>
