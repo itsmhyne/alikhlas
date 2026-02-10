@@ -68,27 +68,5 @@ export default function JadwalSholat() {
         </h2>
       </div>
     </div>
-    // <div className="stats grid grid-cols-5  bg-emerald-700 rounded-lg">
-    //   <div className="border border-white flex flex-col gap-2.5 p-5">
-    //     <h4 className="text-white font-medium bodymedium">Isya'</h4>
-    //     <h2 className="heading2 font-bold text-white">{jadwal.Isha} WIB</h2>
-    //   </div>
-    //   <div className="border border-white flex flex-col gap-2.5 p-5">
-    //     <h4 className="text-white font-medium bodymedium">Subuh</h4>
-    //     <h2 className="heading2 font-bold text-white">{jadwal.Fajr} WIB</h2>
-    //   </div>
-    //   <div className="border border-white flex flex-col gap-2.5 p-5">
-    //     <h4 className="text-white font-medium bodymedium">Dhuhur</h4>
-    //     <h2 className="heading2 font-bold text-white">{jadwal.Dhuhr} WIB</h2>
-    //   </div>
-    //   <div className="border border-white flex flex-col gap-2.5 p-5">
-    //     <h4 className="text-white font-medium bodymedium">Ashar</h4>
-    //     <h2 className="heading2 font-bold text-white">{jadwal.Asr} WIB</h2>
-    //   </div>
-    //   <div className="border border-white flex flex-col gap-2.5 p-5">
-    //     <h4 className="text-white font-medium bodymedium">Magrib</h4>
-    //     <h2 className="heading2 font-bold text-white">{jadwal.Maghrib} WIB</h2>
-    //   </div>
-    // </div>
   );
 }

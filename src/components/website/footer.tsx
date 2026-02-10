@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="bottom-0 flex w-full justify-center items-center labelsmall">
+    <div className="bottom-0 flex w-full justify-center items-center labelsmall mt-52">
       <p>Develop with 🤲 by M. Hamdan Yusuf - &copy;Copyright 2026</p>
     </div>
   );

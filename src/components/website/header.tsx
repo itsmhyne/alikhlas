@@ -14,7 +14,7 @@ export default function Header() {
     // <header className="flex w-full justify-between items-center bg-transparent backdrop-blur-lg shadow-lg py-4 px-5">
     <header
       className={`sticky py-4 px-5 top-0 z-50 transition-all ${
-        scrolled ? "bg-white/90 backdrop-blur shadow-lg" : "bg-transparent"
+        scrolled ? "bg-white backdrop-blur shadow-lg" : "bg-white"
       }`}
     >
       <div className="container mx-auto px-4">
