@@ -31,7 +31,7 @@ export default function Navbar() {
       path: "keuangan",
     },
     {
-      title: "Zakat, Infak & Sedekah",
+      title: "ZIS",
       path: "zis",
     },
     {
@@ -47,7 +47,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="hidden lg:block">
-        <ul className="flex gap-5">
+        <ul className="flex gap-5 items-center">
           {menu.map((item, key) => (
             <Link href={item.path} key={key}>
               <li className="labelsmall hover:border-b-2 hover:border-b-emerald-700 hover:text-emerald-700">

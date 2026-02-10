@@ -18,7 +18,7 @@ export default function Header() {
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex item-center justify-between">
+        <div className="flex w-full  justify-between items-center">
           {/* logo */}
           <h1 className="bodymedium uppercase font-bold text-emerald-700">
             Masjid Al-Ikhlas
