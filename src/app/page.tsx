@@ -3,7 +3,6 @@ import Hero from "@/components/website/hero";
 import JadwalSholat from "@/components/website/jadwal-sholat";
 import PreTitle from "@/components/website/pre-title";
 import { amiri } from "@/fonts/font";
-import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -20,11 +19,7 @@ export default function HomePage() {
       </section>
       <section className="container mx-auto pt-16 px-4 " id="pengumuman">
         <PreTitle text={"Pengumuman"} center="justify-center" />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-0 lg:grid-cols-3 mt-10">
-          <CardPengumuman />
-          <CardPengumuman />
-          <CardPengumuman />
-        </div>
+        <CardPengumuman />
       </section>
       <section className="container mx-auto pt-16 px-4 " id="hadits">
         <PreTitle text={"Quote Ayat/Hadits"} center="justify-center" />

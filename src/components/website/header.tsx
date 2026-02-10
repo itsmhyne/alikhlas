@@ -17,7 +17,7 @@ export default function Header() {
         scrolled ? "bg-white backdrop-blur shadow-lg" : "bg-white"
       }`}
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 lg:px-0">
         <div className="flex w-full  justify-between items-center">
           {/* logo */}
           <h1 className="bodymedium uppercase font-bold text-emerald-700">
