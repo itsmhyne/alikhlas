@@ -7,7 +7,7 @@ export default function Hero() {
       {/* <div className="absolute inset-0 bg-linear-to-l from-black/0 via-black/50 to-black/70 z-10"></div> */}
       <div className="container mx-auto  h-full flex items-center px-0 md:px-12.5">
         <div className="z-20 text-center lg:text-left mx-auto lg:mx-0 flex flex-col items-center lg:items-start max-w-152">
-          <h1 className="heading1 text-emerald-400 font-extrabold shadow-2xs">
+          <h1 className="heading1 text-emerald-600 font-extrabold shadow-2xs text-shadow-lg">
             Makmurkan Masjid
             <br />
             <span className="text-white">Makmurkan Ummat</span>
@@ -15,12 +15,7 @@ export default function Hero() {
           <p className="bodysmall text-ellipsis text-white mt-10 py-4">
             Pusat Ibadah & Kegiatan Ummat
           </p>
-          <div className="flex gap-2.5">
-            <ButtonIcon text={"Donasi Sekarang"} icon={WalletIcon} />
-            <button className="bg-white labelsmall lg:bodysmall text-emerald-700 p-2 lg:p-4 rounded-sm lg:rounded-xl">
-              Jadwal Sholat
-            </button>
-          </div>
+          <ButtonIcon text={"Donasi Sekarang"} icon={WalletIcon} />
         </div>
       </div>
     </div>

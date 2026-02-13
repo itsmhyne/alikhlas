@@ -15,7 +15,8 @@ export default function JadwalSholat() {
 
   useEffect(() => {
     fetch(
-      "https://api.aladhan.com/v1/timingsByCity?city=Blitar&country=Indonesia&method=2"
+      // "https://api.aladhan.com/v1/timingsByCity?city=Blitar&country=Indonesia&method=2"
+      "https://api.aladhan.com/v1/timings?latitude=-8.1409936&longitude=112.3609682&method=2"
     )
       .then((res) => res.json())
       .then((data) => {
