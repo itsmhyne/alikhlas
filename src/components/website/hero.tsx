@@ -15,7 +15,7 @@ export default function Hero() {
           <p className="bodysmall text-ellipsis text-white mt-10 py-4">
             Pusat Ibadah & Kegiatan Ummat
           </p>
-          <ButtonIcon text={"Donasi Sekarang"} icon={WalletIcon} />
+          <ButtonIcon text={"Mari Bersederkah!"} icon={WalletIcon} />
         </div>
       </div>
     </div>

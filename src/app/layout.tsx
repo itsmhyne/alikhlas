@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/website/navbar";
 import Footer from "@/components/website/footer";
 import Header from "@/components/website/header";
+import ScrollToTop from "@/components/website/scroll-top";
 
 const poppinsSans = Poppins({
   variable: "--font-poppins-sans",
@@ -36,8 +37,10 @@ export default function RootLayout({
       <body
         className={`${poppinsSans.variable} ${InterMono.variable} antialiased`}
       >
+        <div id="topbar">{/* nothings */}</div>
         <Header />
         {children}
+        <ScrollToTop />
         <Footer />
       </body>
     </html>

@@ -24,7 +24,7 @@ export default function HomePage() {
       <section className="container mx-auto pt-16 px-4 " id="hadits">
         <PreTitle text={"Quote Ayat/Hadits"} center="justify-center" />
         <div className="text-center mt-10">
-          <p className={`${amiri.className} bodylarge leading-[2.5]`} dir="rtl">
+          <p className={`${amiri.className} text-lg leading-[2.3]`} dir="rtl">
             اِنَّمَا يَعْمُرُ مَسٰجِدَ اللّٰهِ مَنْ اٰمَنَ بِاللّٰهِ وَالْيَوْمِ
             الْاٰخِرِ وَاَقَامَ الصَّلٰوةَ وَاٰتَى الزَّكٰوةَ وَلَمْ يَخْشَ
             اِلَّا اللّٰهَۗ فَعَسٰٓى اُولٰۤىِٕكَ اَنْ يَّكُوْنُوْا مِنَ

@@ -1,8 +1,12 @@
+import HeroSection from "@/components/website/hero-section";
+
 export default function ProfilePage() {
   return (
-    <>
-      <h1>Profile Page</h1>
-    </>
+    <div>
+      <section id="hero">
+        <HeroSection text={"Profile Masjid"} />
+      </section>
+    </div>
   );
 }
 // Author : M. Hamdan Yusuf 😎

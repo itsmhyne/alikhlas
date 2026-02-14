@@ -2,14 +2,14 @@ export default function Footer() {
   return (
     <div className="bottom-0 flex flex-col md:flex-row gap-3 md:gap-0 w-full justify-between items-center labelsmall mt-10 bg-white p-4">
       <p className="text-xs order-2 md:order-1">
-        Develop with 🤲 by M. Hamdan Yusuf - &copy;Copyright 2026
+        &copy; 2026 Masjid Al-Ikhlas, Inc. All rights reserved.
       </p>
       <div className="flex gap-5 items-center order-1 md:order-2">
         <svg
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="text-[#25D366] w-6 h-6"
+          className="text-[#25D366] w-4.5 h-4.5"
           fill="currentColor"
         >
           <title>WhatsApp</title>
@@ -19,7 +19,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="text-[#FF0069] w-6 h-6"
+          className="text-[#FF0069] w-4.5 h-4.5"
           fill="currentColor"
         >
           <title>Instagram</title>
@@ -29,7 +29,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="text-[#0866FF] w-6 h-6"
+          className="text-[#0866FF] w-4.5 h-4.5"
           fill="currentColor"
         >
           <title>Facebook</title>
@@ -39,7 +39,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6"
+          className="w-4.5 h-4.5"
           fill="currentColor"
         >
           <title>GitHub</title>
@@ -49,7 +49,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="text-[#FF0000] w-6 h-6"
+          className="text-[#FF0000] w-4.5 h-4.5"
           fill="currentColor"
         >
           <title>YouTube</title>

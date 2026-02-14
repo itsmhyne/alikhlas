@@ -16,6 +16,7 @@ export default function Header() {
       className={`sticky py-4 px-5 top-0 z-50 transition-all ${
         scrolled ? "bg-white backdrop-blur shadow-lg" : "bg-white"
       }`}
+      id="header"
     >
       <div className="container mx-auto px-4 lg:px-0">
         <div className="flex w-full  justify-between items-center">
