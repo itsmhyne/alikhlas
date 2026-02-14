@@ -11,7 +11,7 @@ export default function HeroSection({ text }: sectionProps) {
           <h3 className="bodymedium text-white font-bold text-shadow-lg">
             {text}
           </h3>
-          <p className="bodysmall text-emerald-500 mt-2">
+          <p className="labelsmall text-white mt-2">
             Masjid Al-Ikhlas Kesamben
           </p>
         </div>

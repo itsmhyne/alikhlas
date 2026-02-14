@@ -31,7 +31,7 @@ export default function HomePage() {
             الْمُهْتَدِيْنَ ۝١٨
           </p>
 
-          <p className="mt-5 text-sm text-gray-600">
+          <p className="mt-5 labelsmall text-gray-600">
             “Sesungguhnya yang (pantas) memakmurkan masjid-masjid Allah hanyalah
             orang yang beriman kepada Allah dan hari Akhir, mendirikan salat,
             menunaikan zakat, serta tidak takut (kepada siapa pun) selain Allah.
