@@ -8,8 +8,8 @@ export default function ProfilePage() {
       <section id="hero">
         <HeroSection text={"Profile Masjid"} />
       </section>
-      <section id="about" className="container mx-auto my-10">
-        <div className="grid md:grid-cols-2">
+      <section id="about" className="container mx-auto my-10 px-4">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-5">
           <div>
             <PreTitle text={"Tentang Masjid Al-Ikhlas"} />
             <p className="labelsmall p-2">
@@ -42,7 +42,7 @@ export default function ProfilePage() {
             </p>
           </div>
           <div>
-            <div className="grid grid-cols-2 grid-rows-5 gap-x-4 gap-y-2 md:gap-x-8 lg:gap-y-2 lg:gap-x-0">
+            <div className="grid grid-cols-2 grid-rows-5 gap-x-4 gap-y-2 md:gap-x-5 lg:gap-y-3 lg:gap-x-4">
               <div className="row-span-2 col-start-2 place-items-center">
                 <ImageZoom />
               </div>

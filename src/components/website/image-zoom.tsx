@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function ImageZoom() {
   return (
-    <div className="relative w-50 h-50 lg:w-62.5 lg:h-62.5 overflow-hidden rounded-xl group">
+    <div className="relative w-43.75 h-43.75 md:w-45.5 md:h-45.5 lg:w-60 lg:h-60 overflow-hidden rounded-xl group">
       <Image
         src="/img/svg/x250.svg"
         alt="img"
