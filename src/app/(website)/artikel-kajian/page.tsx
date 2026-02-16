@@ -1,8 +1,12 @@
+import HeroSection from "@/components/website/hero-section";
+
 export default function ArtikelKajianPage() {
   return (
-    <>
-      <h1>Artikel & Kajian Page</h1>
-    </>
+    <div>
+      <section id="hero">
+        <HeroSection text={"Artikel & Kajian"} />
+      </section>
+    </div>
   );
 }
 // Author : M. Hamdan Yusuf 😎

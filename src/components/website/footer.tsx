@@ -9,7 +9,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="text-[#25D366] w-4.5 h-4.5"
+          className="text-[#25D366] w-4.5 h-4.5 cursor-pointer"
           fill="currentColor"
         >
           <title>WhatsApp</title>
@@ -19,7 +19,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="text-[#FF0069] w-4.5 h-4.5"
+          className="text-[#FF0069] w-4.5 h-4.5 cursor-pointer"
           fill="currentColor"
         >
           <title>Instagram</title>
@@ -29,7 +29,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="text-[#0866FF] w-4.5 h-4.5"
+          className="text-[#0866FF] w-4.5 h-4.5 cursor-pointer"
           fill="currentColor"
         >
           <title>Facebook</title>
@@ -39,7 +39,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-4.5 h-4.5"
+          className="w-4.5 h-4.5 cursor-pointer"
           fill="currentColor"
         >
           <title>GitHub</title>
@@ -49,7 +49,7 @@ export default function Footer() {
           role="img"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="text-[#FF0000] w-4.5 h-4.5"
+          className="text-[#FF0000] w-4.5 h-4.5 cursor-pointer"
           fill="currentColor"
         >
           <title>YouTube</title>

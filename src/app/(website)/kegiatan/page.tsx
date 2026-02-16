@@ -1,7 +1,11 @@
+import HeroSection from "@/components/website/hero-section";
+
 export default function KegiatanPage() {
   return (
     <div>
-      <h1>Kegiatan Page</h1>
+      <section id="hero">
+        <HeroSection text={"Kegiatan"} />
+      </section>
     </div>
   );
 }

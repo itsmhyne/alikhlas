@@ -1,7 +1,11 @@
+import HeroSection from "@/components/website/hero-section";
+
 export default function KontakPage() {
   return (
     <div>
-      <h1>Kontak Page</h1>
+      <section id="hero">
+        <HeroSection text={"Kontak"} />
+      </section>
     </div>
   );
 }

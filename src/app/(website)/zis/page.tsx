@@ -1,7 +1,11 @@
+import HeroSection from "@/components/website/hero-section";
+
 export default function ZisPage() {
   return (
     <div>
-      <h1>Zakat, Infak & Sedekah Page</h1>
+      <section id="hero">
+        <HeroSection text={"Zakat, Infak, & Sedekah"} />
+      </section>
     </div>
   );
 }

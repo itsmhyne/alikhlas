@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "./navbar";
 import NavbarMobile from "./navbar-mobile";
+import Image from "next/image";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);

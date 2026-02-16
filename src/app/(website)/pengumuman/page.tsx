@@ -1,8 +1,12 @@
+import HeroSection from "@/components/website/hero-section";
+
 export default function PengumumanPage() {
   return (
-    <>
-      <h1>Pengumuman Page</h1>
-    </>
+    <div>
+      <section id="hero">
+        <HeroSection text={"Pengumuman"} />
+      </section>
+    </div>
   );
 }
 // Author : M. Hamdan Yusuf 😎

@@ -1,8 +1,12 @@
+import HeroSection from "@/components/website/hero-section";
+
 export default function DonasiInfakPage() {
   return (
-    <>
-      <h1>Donasi & Infak Page</h1>
-    </>
+    <div>
+      <section id="hero">
+        <HeroSection text={"Donasi & Infak"} />
+      </section>
+    </div>
   );
 }
 // Author : M. Hamdan Yusuf 😎
