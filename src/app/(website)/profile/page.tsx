@@ -77,13 +77,15 @@ export default function ProfilePage() {
           </div>
         </div>
       </section>
-      <section className="container mx-auto my-10 px-4">
-        <PreTitle text={"Takmir Masjid Al-Ikhlas"} center="center" />
-        <span className="labelsmall">
+      <section className="container mx-auto my-10 px-4 flex flex-col justify-center items-center">
+        <PreTitle text={"Takmir Masjid Al-Ikhlas"} center="justify-center" />
+        <span className="labelsmall text-center">
           We're a dynamic group of individuals who are passionate about what we
-          do and dedicated to delivering the best results for our clients.
+          do and dedicated to delivering
+          <br />
+          the best results for our clients.
         </span>
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-5 lg:grid-cols-6 my-10 lg:gap-8">
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-5 lg:grid-cols-8 my-10 lg:gap-8">
           {takmir.map((item, key) => (
             <Takmir key={key} />
           ))}
