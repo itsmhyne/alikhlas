@@ -1,5 +1,6 @@
 import HeroSection from "@/components/website/hero-section";
 import ImageZoom from "@/components/website/image-zoom";
+import MapSection from "@/components/website/map-section";
 import PreTitle from "@/components/website/pre-title";
 import Takmir from "@/components/website/takmir";
 
@@ -26,7 +27,7 @@ export default function ProfilePage() {
       <section id="hero">
         <HeroSection text={"Profile"} />
       </section>
-      <section id="about" className="container mx-auto my-10 px-4">
+      <section className="container mx-auto my-10 px-4">
         <div className="grid md:grid-cols-2 gap-4 md:gap-5">
           <div>
             <PreTitle text={"Tentang Masjid Al-Ikhlas"} />
@@ -60,17 +61,17 @@ export default function ProfilePage() {
             </p>
           </div>
           <div>
-            <div className="grid grid-cols-2 grid-rows-5 gap-x-4 gap-y-2 md:gap-x-5 lg:gap-y-3 lg:gap-x-4">
+            <div className="grid grid-cols-2 grid-rows-5 gap-x-2 gap-y-2 md:gap-x-3 lg:gap-y-2 lg:gap-x-0 ">
               <div className="row-span-2 col-start-2 place-items-center">
                 <ImageZoom />
               </div>
-              <div className="row-span-2 row-start-2 place-items-center ">
+              <div className="row-span-2 row-start-2 place-items-end">
                 <ImageZoom />
               </div>
               <div className="row-span-2 col-start-2 row-start-3 place-items-center">
                 <ImageZoom />
               </div>
-              <div className="row-span-2 row-start-4 place-items-center">
+              <div className="row-span-2 row-start-4 place-items-end">
                 <ImageZoom />
               </div>
             </div>
@@ -90,6 +91,10 @@ export default function ProfilePage() {
             <Takmir key={key} />
           ))}
         </div>
+      </section>
+      <section className="container mx-auto px-4">
+        <PreTitle text={"Lokasi Kami"} center="center" />
+        <MapSection />
       </section>
     </div>
   );
