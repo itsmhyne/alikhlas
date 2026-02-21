@@ -8,7 +8,7 @@ export default function HeroSection({ text }: sectionProps) {
       {/* <div className="absolute inset-0 bg-linear-to-l from-black/0 via-black/50 to-black/70 z-10"></div> */}
       <div className="container mx-auto  h-full flex justify-center items-center px-0 md:px-12.5">
         <div className="z-20 text-center lg:text-left mx-auto lg:mx-0 flex flex-col items-center max-w-152">
-          <h3 className="bodysmall text-white ">Beranda / {text}</h3>
+          <h3 className="bodysmall text-white">{text}</h3>
         </div>
       </div>
     </div>
