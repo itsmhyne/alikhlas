@@ -19,7 +19,7 @@ export default function JadwalPage() {
       <section className="container mx-auto pt-16 px-4">
         <PreTitle text="Jadwal Sholat Jumat" center="yes" />
 
-        <div className="">
+        <div className="mt-5 text-center">
           <CardJumat />
         </div>
       </section>

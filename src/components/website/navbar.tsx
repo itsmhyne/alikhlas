@@ -55,9 +55,9 @@ export default function Navbar() {
           return (
             <Link href={item.path} key={key}>
               <li
-                className={`labelsmall hover:border-b-2 hover:border-b-emerald-700 hover:text-emerald-700 ${
+                className={`text-sm/relaxed font-medium hover:border-b-2 hover:border-b-emerald-700 hover:text-emerald-700 ${
                   isActive
-                    ? "border-b-2 border-b-emerald-700 text-emerald-700 font-semibold"
+                    ? "text-lg border-b-2 border-b-emerald-700 text-emerald-700 font-semibold"
                     : ""
                 }`}
               >

@@ -2,7 +2,7 @@ import CardPengumuman from "@/components/website/card-pengumuman";
 import Hero from "@/components/website/hero";
 import JadwalSholat from "@/components/website/jadwal-sholat";
 import PreTitle from "@/components/website/pre-title";
-import { amiri } from "@/fonts/font";
+import { amiri } from "./layout";
 
 export default function HomePage() {
   return (

@@ -1,58 +1,43 @@
-import { Clock12Icon, LucideUsers2 } from "lucide-react";
+import { Clock12Icon, LucideUsers2, Users2Icon } from "lucide-react";
 
 export default function CardJumat() {
   const data = [
     {
-      hari: "Jumat Wage",
+      hari: "Wage",
+      khotib: "Siswanto",
+      bilal: "M. Hamdan Yusuf",
+    },
+    {
+      hari: "Legi",
       khotib: "test",
       bilal: "test",
     },
     {
-      hari: "Jumat Legi",
+      hari: "Pon",
       khotib: "test",
       bilal: "test",
     },
     {
-      hari: "Jumat Pon",
+      hari: "Kliwon",
       khotib: "test",
       bilal: "test",
     },
     {
-      hari: "Jumat Kliwon",
-      khotib: "test",
-      bilal: "test",
-    },
-    {
-      hari: "Jumat Pahing",
+      hari: "Pahing",
       khotib: "test",
       bilal: "test",
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-center items-center">
+      <div className="font-bold">Hari</div>
+      <div className="bodymedium">Hari</div>
+      <div className="bodymedium">Hari</div>
+      <hr />
+      <hr />
+      <hr />
       {data.map((item, key) => (
-        <div
-          className="grid gap-2.5 border border-slate-300 rounded-xl p-5
-    "
-          key={key}
-        >
-          <div className="flex items-center gap-2.5">
-            <div className="bg-emerald-700 rounded-xl p-4 w-fit">
-              <LucideUsers2 className="text-emerald-300" />
-            </div>
-            <h6 className="bodymedium font-bold text-emerald-700">
-              {item.hari}
-            </h6>
-          </div>
-          <div className="flex flex-col">
-            <h6 className="bodymedium font-semibold">Khatib</h6>
-            <p className="font-light bodysmall">{item.khotib}</p>
-          </div>
-          <div className="flex flex-col">
-            <h6 className="bodymedium font-semibold">Bilal</h6>
-            <p className="font-light bodysmall">{item.bilal}</p>
-          </div>
-        </div>
+        <p>yuhu</p>
       ))}
     </div>
   );

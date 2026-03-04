@@ -1,20 +1,15 @@
 import type { Metadata } from "next";
-import { Amiri, Geist, Geist_Mono, Inter, Poppins } from "next/font/google";
+import { Amiri } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/website/navbar";
 import Footer from "@/components/website/footer";
 import Header from "@/components/website/header";
 import ScrollToTop from "@/components/website/scroll-top";
 
-const poppinsSans = Poppins({
-  variable: "--font-poppins-sans",
-  subsets: ["latin"],
-  weight: ["400"],
-});
-
-const InterMono = Inter({
-  variable: "--font-inter-mono",
-  subsets: ["latin"],
+const inter = localFont({
+  src: "./fonts/inter.ttf",
+  variable: "--font-inter",
+  display: "swap",
 });
 
 export const amiri = Amiri({
@@ -33,10 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${poppinsSans.variable} ${InterMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${inter.variable}`}>
+      <body className="font-sans antialiased">
         <div id="topbar">{/* nothings */}</div>
         <Header />
         {children}

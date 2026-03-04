@@ -45,7 +45,7 @@ export default function ProfilePage() {
               delectus, sequi tempora officiis magni facere consequuntur ab
               eveniet atque ullam! Accusamus, cupiditate!
             </p>
-            <p className="labelsmall p-2">
+            <p className="labelsmall p-2 font-inter">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A
               repudiandae facere sed iste maiores excepturi aperiam sequi
               tempora. Vitae magnam praesentium mollitia sed at quis fugit
