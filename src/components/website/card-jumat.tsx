@@ -29,16 +29,37 @@ export default function CardJumat() {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-center items-center">
-      <div className="font-bold">Hari</div>
-      <div className="bodymedium">Hari</div>
-      <div className="bodymedium">Hari</div>
-      <hr />
-      <hr />
-      <hr />
-      {data.map((item, key) => (
-        <p>yuhu</p>
-      ))}
+    <div className="overflow-x-auto">
+      <table className="w-full border border-emerald-400 rounded-lg overflow-hidden">
+        <thead className="bg-emerald-700 text-white">
+          <tr>
+            <th className="text-center px-4 py-3 bodysmall border-b">Jumat</th>
+            <th className="text-center px-4 py-3 bodysmall border-b">Khotib</th>
+            <th className="text-center px-4 py-3 bodysmall border-b">Bilal</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {data.map((jadwal, key) => (
+            <tr key={key} className="hover:bg-emerald-100 transition-colors">
+              <td className="px-4 py-3 labelsmall border-b border-gray-300">
+                {jadwal.hari}
+              </td>
+              <td className="px-4 py-3 labelsmall border-b border-gray-300">
+                {jadwal.khotib}
+              </td>
+              <td className="px-4 py-3 labelsmall border-b border-gray-300">
+                {jadwal.bilal}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+        <tfoot>
+          <td className="text-xs text-left text-emerald-900 font-medium p-4">
+            *cadangan : Fachdum Priyono(Khotib)
+          </td>
+        </tfoot>
+      </table>
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default function Footer() {
           &copy; 2026 Masjid Al-Ikhlas, Inc. All rights reserved.
         </p>
         <div className="flex gap-5 items-center order-1 md:order-2">
-          <Link href={"https:wa.me/089524268212"} target="_blank">
+          <Link href={"https://wa.me/089524268212"} target="_blank">
             <svg
               role="img"
               viewBox="0 0 24 24"
